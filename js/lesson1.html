@@ -8,18 +8,45 @@
 </head>
 <body>
     <script>
-        /// chẵn
-        for(let i = 0; i<=100; i++){
-            if(i%2 == 0){
-                console.log(i)
-            }
+        // /// chẵn
+        // for(let i = 0; i<=100; i++){
+        //     if((i%2) == 0){
+        //         console.log(i)
+        //     }
+        // }
+        // /// lẻ
+        // for(let i = 0; i<=100; i++){
+        //     if((i%2) == 1){
+        //         console.log(i)
+        //     }
+        // }
+        /// Bài 2
+        bak = [["grape", 15], ["apple", 10]]
+        for(let i = 0; i<bak.length; i++ ){
+            console.log("I have", bak[i][1], bak[i][0]);
         }
-        /// lẻ
-        for(let i = 0; i<=100; i++){
-            if(i%2 != 0){
-                console.log(i)
-            }
+        let n = 0
+        do {
+            console.log("I have", bak[n][1], bak[n][0]);
+            n++
+        } while (n <= (bak.length - 1));
+        n = 0
+        while(n < bak.length){
+            console.log("I have", bak[n][1], bak[n][0]);
+            n++
         }
+        /// Bài 3
+        dog = {
+            "name": "Ngáo",
+            "leg": 4,
+            "friends": ["everything!"]
+        }
+        dog.name = "Husky"
+        console.log(dog)
+        dog["color"] = "brown" 
+        console.log(dog)
+        delete dog.friends;
+        console.log(dog)
     </script>
 </body>
 </html>
