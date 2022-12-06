@@ -1,7 +1,7 @@
-# Print Pascal's Triangle in Python
+# Tam giác Pascal
 from math import factorial
 
-# input n
+# Nhập số
 n = int(input("nhap so dong"))
 for i in range(n):
 	for j in range(n-i+1):
