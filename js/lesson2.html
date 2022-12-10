@@ -8,12 +8,34 @@
 </head>
 <body>
     <script>
-        let text = ""
-        const myArray = ["item1","item2","item3"]
-        for (let i of myArray){
-            text += i
-        }
-        console.log(text)
+        // let text = ""
+        // const myArray = ["item1","item2","item3"]
+        // for (let i of myArray){
+        //     text += " " + i
+        // }
+        // console.log(text)
+        // text = ""
+        // const myObj = {name: "A", age: 18}
+        // for (let i in myObj){
+        //     text += myObj[i] + " "
+        // }
+        // console.log(text)
+        // Bài 1
+            let text = "1 "
+            let a = 10
+            let space = " "
+            for (let i = 1; i<a; i+=2){
+                console.log(space.repeat(a-i),text.repeat(i),)
+            }
+        // Bài 2
+            text = 0
+            let myArr = [9,7,9,0,7,8,387,123,456]
+            for (let i of myArr){
+                if(i % 2 == 0){
+                    text += i + " "
+                }
+            }
+            console.log(text);
     </script>
 </body>
 </html>
