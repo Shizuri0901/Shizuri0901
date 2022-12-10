@@ -11,5 +11,5 @@ for i in range(n):
 		# nCr = n!/((n-r)!*r!): công thức tính tổ hợp
 		print(factorial(i)//(factorial(j)*factorial(i-j)), end=" ")
         # factorial: giai thừa
-	# xuống dòng
+	# xuống dòng~
 	print()
