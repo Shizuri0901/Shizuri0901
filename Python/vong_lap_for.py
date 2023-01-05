@@ -60,3 +60,13 @@ for k in range(1,3):
         print("  * * *  ","  * * *")
 for m in range(9,0,-1):
     print(" "*(9-m),"* "*m)
+a = int(input())
+s = 0
+i = 0
+# for k in range(0,a+1):
+#     s += k
+# print(s)
+while i <= a:
+    s += i
+    i += 1
+print(s)
