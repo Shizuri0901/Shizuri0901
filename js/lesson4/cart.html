@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cart">
+        <div class="Nav">
+            <button onclick="Log_out()" class="log">Log out</button>
+            <button onclick="home()" class="log">home</button>
+            <button onclick="cart()" class="log">Shopping cart</button>
+        </div>
+        <div class="demo">
+            <div class="list">
+            </div>
+            <div class="ctrl">
+                <button class="del" onclick="clear_cart()">Xóa toàn bộ</button>
+                <button class="pay" onclick="clear_cart()">Thanh toán</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
