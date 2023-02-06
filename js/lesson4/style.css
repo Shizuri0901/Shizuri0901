@@ -27,7 +27,6 @@
     margin-top: 50px;
 }
 .item{
-    height: fit-content;
     width: 200px;
     display: flex;
     background-color: darkolivegreen;
@@ -66,12 +65,12 @@
     display: flex;
     height: 100%;
 }
-// .Item{
-//     display: flex;
-//     height: 70px;
-//     width: 70%;
-// }
-// .demo{
-//     border: 1px solid red;
-// }
+.Item{
+    display: flex;
+    height: 70px;
+    width: 70%;
+}
+.demo{
+    border: 1px solid red;
+}
 
